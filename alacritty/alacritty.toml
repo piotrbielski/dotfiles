@@ -1,0 +1,31 @@
+[cursor]
+blink_timeout = 0
+
+[cursor.style]
+blinking = "Always"
+shape = "Underline"
+
+[cursor.vi_mode_style]
+blinking = "Always"
+shape = "Beam"
+
+[font]
+size = 12
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[window]
+decorations_theme_variant = "None"
+dynamic_title = true
+startup_mode = "Windowed"
+title = "Alacritty Terminal"
+
+[window.dimensions]
+columns = 130
+lines = 38
+
+[window.padding]
+x = 5
+y = 5
